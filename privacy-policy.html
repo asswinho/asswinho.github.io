@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>酒飲大丈夫 - 隱私權政策</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+      background: #fdf6f0;
+      color: #2c1a0e;
+      line-height: 1.8;
+    }
+    header {
+      background: #A4624D;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header .icon { font-size: 48px; margin-bottom: 12px; }
+    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+    header p { font-size: 14px; opacity: 0.85; }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .meta {
+      background: #fff;
+      border-left: 4px solid #A4624D;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-bottom: 36px;
+      font-size: 14px;
+      color: #7a5c4a;
+    }
+    .meta strong { color: #A4624D; }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #A4624D;
+      margin: 36px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #f5dfc5;
+    }
+    p { margin-bottom: 14px; font-size: 15px; }
+    ul { margin: 8px 0 14px 20px; font-size: 15px; }
+    ul li { margin-bottom: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th {
+      background: #A4624D;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #f5dfc5;
+      vertical-align: top;
+    }
+    tr:nth-child(even) td { background: #fff8f3; }
+    .highlight {
+      background: #fff8f3;
+      border: 1px solid #f5dfc5;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .highlight strong { color: #A4624D; }
+    .nav-links {
+      text-align: center;
+      padding: 16px;
+      background: #fff;
+      border-bottom: 1px solid #f5dfc5;
+      font-size: 14px;
+    }
+    .nav-links a { color: #A4624D; text-decoration: none; margin: 0 12px; }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #a0826d;
+      padding: 32px 24px;
+      border-top: 1px solid #f5dfc5;
+    }
+    footer a { color: #A4624D; text-decoration: none; }
+    code {
+      background: #f5dfc5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="nav-links">
+  <a href="./privacy-policy.html">📋 隱私權政策</a>
+  <a href="./terms-of-service.html">📜 服務條款</a>
+  <a href="https://asswinho.github.io">🏠 官方網站</a>
+</div>
+
+<header>
+  <div class="icon">🍷</div>
+  <h1>酒飲大丈夫</h1>
+  <p>Alcohol Guardian — 隱私權政策（Privacy Policy）</p>
+</header>
+
+<div class="container">
+
+  <div class="meta">
+    <strong>應用程式名稱：</strong>酒飲大丈夫（Alcohol Guardian）<br>
+    <strong>開發者：</strong>APIA International Business Co., Ltd.（雅陛亞國際商務有限公司）<br>
+    <strong>套件識別碼：</strong>com.asswinho.alchoSafe<br>
+    <strong>最後更新日期：</strong>2026 年 6 月 24 日<br>
+    <strong>聯絡信箱：</strong>contact@apia-business.com
+  </div>
+
+  <h2>一、前言</h2>
+  <p>
+    本隱私權政策說明「酒飲大丈夫」（以下簡稱「本 App」）如何收集、使用及保護您的個人資料。
+    我們重視您的隱私，本 App 的核心設計原則為：<strong>App 本身的業務邏輯不主動上傳您的個人資料至任何伺服器</strong>。
+    惟第三方 SDK（如 Google Maps、Expo）於基礎運作時可能傳輸技術資訊，詳見第七條說明。
+  </p>
+
+  <h2>二、我們存取的資訊</h2>
+  <p>本 App 於運作時會存取以下資訊：</p>
+  <ul>
+    <li>
+      <strong>精確地理位置（前景與背景）：</strong>
+      用於判定您是否已安全抵達您所設定的「安全地理圍欄」。
+      本 App 在您開啟飲酒監控功能期間，即使螢幕關閉，仍會在背景持續存取位置資訊，
+      以便在您迷路或離開安全區域時發出警報。
+    </li>
+    <li>
+      <strong>緊急聯絡人資訊：</strong>
+      您手動輸入的姓名與電話號碼，儲存於裝置本地加密儲存區（Expo SecureStore），
+      僅用於緊急狀況下預填簡訊內容。
+    </li>
+    <li>
+      <strong>飲酒監控數據：</strong>
+      包含飲酒開始時間、警報設定等，僅儲存於裝置本地，不上傳。
+    </li>
+  </ul>
+
+  <h2>三、App 申請的系統權限清單</h2>
+  <p>以下為本 App 在 AndroidManifest 中宣告的系統權限及其用途：</p>
+  <table>
+    <tr>
+      <th>權限名稱</th>
+      <th>用途說明</th>
+    </tr>
+    <tr>
+      <td><code>ACCESS_FINE_LOCATION</code></td>
+      <td>前景精確定位，用於地圖顯示與圍欄設定</td>
+    </tr>
+    <tr>
+      <td><code>ACCESS_COARSE_LOCATION</code></td>
+      <td>粗略定位備援</td>
+    </tr>
+    <tr>
+      <td><code>ACCESS_BACKGROUND_LOCATION</code></td>
+      <td>背景定位，監控期間螢幕關閉時仍追蹤位置</td>
+    </tr>
+    <tr>
+      <td><code>FOREGROUND_SERVICE</code></td>
+      <td>維持前景服務，確保監控不被系統終止</td>
+    </tr>
+    <tr>
+      <td><code>FOREGROUND_SERVICE_LOCATION</code></td>
+      <td>宣告前景服務類型為位置服務</td>
+    </tr>
+    <tr>
+      <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+      <td>裝置重啟後恢復監控狀態</td>
+    </tr>
+    <tr>
+      <td><code>VIBRATE</code></td>
+      <td>警報觸發時震動通知</td>
+    </tr>
+    <tr>
+      <td><code>WAKE_LOCK</code></td>
+      <td>警報觸發時喚醒螢幕</td>
+    </tr>
+    <tr>
+      <td><code>POST_NOTIFICATIONS</code></td>
+      <td>發送警報推播通知</td>
+    </tr>
+    <tr>
+      <td><code>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</code></td>
+      <td>請求豁免省電模式，確保背景監控穩定運作</td>
+    </tr>
+    <tr>
+      <td><code>RECORD_AUDIO</code></td>
+      <td>語音備忘錄功能（付費版功能）</td>
+    </tr>
+    <tr>
+      <td><code>MODIFY_AUDIO_SETTINGS</code></td>
+      <td>警報音量控制</td>
+    </tr>
+  </table>
+  <div class="highlight">
+    <strong>📌 特別聲明：</strong>本 App <strong>不申請、不使用</strong> <code>SEND_SMS</code> 權限。
+    簡訊功能僅透過開啟原生簡訊 App 並預填內容實現，所有發送動作均須使用者手動確認。
+  </div>
+
+  <h2>四、簡訊功能說明</h2>
+  <p>
+    當警報觸發且您未能通過清醒驗證時，本 App 會<strong>開啟您裝置的原生簡訊應用程式</strong>，
+    並預先填入包含您最後已知位置的訊息內容，供您自行決定是否發送給緊急聯絡人。
+    本 App 不會自動發送任何簡訊，所有簡訊均須由您本人手動確認後才會發出。
+  </p>
+
+  <h2>五、位置資料的使用目的</h2>
+  <p>我們存取地理位置資訊的唯一目的為：</p>
+  <ul>
+    <li>判定您是否在設定的安全地理圍欄範圍內</li>
+    <li>在您離開安全區域時發出警報通知</li>
+    <li>在緊急狀況下預填您的當前位置至簡訊草稿，供您手動發送</li>
+  </ul>
+  <p>我們<strong>不會</strong>將您的位置資料用於廣告目的、行為追蹤、出售或分享給第三方。</p>
+
+  <h2>六、背景定位的必要性聲明</h2>
+  <p>
+    本 App 需要在背景存取位置資訊，原因如下：當使用者處於飲酒狀態時，
+    可能已關閉螢幕或無法主動操作手機。若移除背景定位功能，
+    系統將無法在使用者意識不清的情況下持續監控其安全狀態，導致核心安全防護機制完全失效。
+  </p>
+  <p>
+    本 App 僅在使用者<strong>主動開啟監控功能</strong>期間存取背景位置，
+    監控結束或使用者手動停止後，<strong>立即停止所有位置存取</strong>。
+  </p>
+  <div class="highlight">
+    <strong>📋 顯著聲明（Prominent Disclosure）：</strong>
+    在首次要求背景位置存取權限前，本 App 會在螢幕上顯示清晰的「顯著聲明」畫面，
+    詳細告知背景位置存取的目的與使用方式。使用者必須明確點選「同意」後，
+    系統才會跳出原生的權限請求對話框。使用者可隨時透過系統設定撤銷此權限。
+  </div>
+
+  <h2>七、第三方 SDK 資料傳輸說明</h2>
+  <p>
+    本 App 整合了以下第三方服務。這些 SDK 於基礎運作時，
+    可能會向其伺服器傳輸技術性資訊（如 IP 位址、裝置型號、匿名使用統計），
+    此行為係由第三方 SDK 自行處理，超出本公司直接控制範圍：
+  </p>
+  <ul>
+    <li>
+      <strong>Google Maps Platform：</strong>
+      用於地圖顯示與地理圍欄功能。地圖互動時可能傳輸位置資訊至 Google 伺服器。
+      適用 <a href="https://policies.google.com/privacy" target="_blank">Google 隱私權政策</a>。
+    </li>
+    <li>
+      <strong>Expo（EAS）：</strong>
+      用於 App 打包與推送通知基礎設施。可能傳輸裝置 Token 至 Expo 伺服器。
+      適用 <a href="https://expo.dev/privacy" target="_blank">Expo 隱私權政策</a>。
+    </li>
+  </ul>
+  <p>
+    除上述第三方 SDK 之基礎運作外，本 App 本身的業務邏輯<strong>不主動收集或傳輸</strong>您的個人資料。
+  </p>
+
+  <h2>八、資料儲存與安全</h2>
+  <ul>
+    <li>緊急聯絡人資訊使用 <strong>Expo SecureStore</strong>（裝置加密儲存）保護</li>
+    <li>飲酒監控數據均儲存於裝置本地，不經由網際網路傳輸至本公司伺服器</li>
+    <li>本公司不設立任何後端資料庫持有您的個人資料</li>
+    <li>解除安裝本 App 後，所有本地資料將一併清除</li>
+  </ul>
+
+  <h2>九、兒童隱私</h2>
+  <p>
+    本 App 涉及飲酒安全情境，<strong>僅適用於 18 歲（含）以上成年人</strong>。
+    我們不會故意收集未成年人的個人資料。若您認為未成年人使用了本 App，請立即聯絡我們。
+  </p>
+
+  <h2>十、您的權利與資料刪除</h2>
+  <p>您可以隨時：</p>
+  <ul>
+    <li>在 App 內刪除所有本地儲存的個人資料</li>
+    <li>透過手機系統設定撤銷位置存取權限</li>
+    <li>解除安裝 App 以移除所有相關資料</li>
+  </ul>
+  <div class="highlight">
+    <strong>📌 資料刪除聲明：</strong>
+    由於本 App 採用純本地端架構（Local-First），本公司並未在伺服器端持有您的任何個人資料。
+    若您欲徹底銷毀所有資料，只需透過系統設定「清除應用程式資料」或直接「解除安裝本 App」，
+    所有與您相關的緊急聯絡人資訊與位置設定將<strong>立即且永久</strong>從您的裝置中刪除，無法復原。
+  </div>
+
+  <h2>十一、政策變更</h2>
+  <p>
+    若本政策有重大變更，我們將更新本頁面頂部的「最後更新日期」，
+    並在 App 更新說明中通知使用者。
+  </p>
+
+  <h2>十二、聯絡我們</h2>
+  <p>如對本隱私權政策有任何疑問，請透過以下方式聯絡：</p>
+  <ul>
+    <li><strong>公司名稱：</strong>APIA International Business Co., Ltd.（雅陛亞國際商務有限公司）</li>
+    <li><strong>電子郵件：</strong>contact@apia-business.com</li>
+    <li><strong>官方網站：</strong><a href="https://asswinho.github.io" target="_blank">asswinho.github.io</a></li>
+  </ul>
+
+</div>
+
+<footer>
+  <p>© 2026 APIA International Business Co., Ltd.（雅陛亞國際商務有限公司）版權所有</p>
+  <p style="margin-top:6px;">
+    <a href="./terms-of-service.html">服務條款</a> ·
+    <a href="https://asswinho.github.io">官方網站</a>
+  </p>
+</footer>
+
+</body>
+</html>
